@@ -8,7 +8,8 @@
       "projectTarget": "PhotoMax.exe",
         "name": "PhotoMax.exe",
         "args": [
-            "--rename"
+            "--rename",
+            "--convert"
         ]
     }
   ]
