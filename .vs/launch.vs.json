@@ -6,11 +6,11 @@
       "type": "default",
       "project": "CMakeLists.txt",
       "projectTarget": "PhotoMax.exe",
-        "name": "PhotoMax.exe",
-        "args": [
-            "--rename",
-            "--convert"
-        ]
+      "name": "PhotoMax.exe",
+      "args": [
+        "--rename",
+        "--convert"
+      ]
     }
   ]
 }

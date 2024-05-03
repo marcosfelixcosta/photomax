@@ -56,6 +56,13 @@ build CMakeFiles\PhotoMax.dir\PhotoMax.cpp.obj: CXX_COMPILER__PhotoMax_unscanned
   TARGET_COMPILE_PDB = CMakeFiles\PhotoMax.dir\
   TARGET_PDB = PhotoMax.pdb
 
+build CMakeFiles\PhotoMax.dir\ArgunmentParse.cpp.obj: CXX_COMPILER__PhotoMax_unscanned_Debug C$:\Users\Marcos$ Felix\Documents\Visual$ Studio$ 2022\Projeto$ C++\PhotoMax\ArgunmentParse.cpp || cmake_object_order_depends_target_PhotoMax
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = CMakeFiles\PhotoMax.dir
+  OBJECT_FILE_DIR = CMakeFiles\PhotoMax.dir
+  TARGET_COMPILE_PDB = CMakeFiles\PhotoMax.dir\
+  TARGET_PDB = PhotoMax.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target PhotoMax
@@ -64,7 +71,7 @@ build CMakeFiles\PhotoMax.dir\PhotoMax.cpp.obj: CXX_COMPILER__PhotoMax_unscanned
 #############################################
 # Link the executable PhotoMax.exe
 
-build PhotoMax.exe: CXX_EXECUTABLE_LINKER__PhotoMax_Debug CMakeFiles\PhotoMax.dir\PhotoMax.cpp.obj
+build PhotoMax.exe: CXX_EXECUTABLE_LINKER__PhotoMax_Debug CMakeFiles\PhotoMax.dir\PhotoMax.cpp.obj CMakeFiles\PhotoMax.dir\ArgunmentParse.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
