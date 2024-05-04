@@ -18,6 +18,8 @@ int main(int argc, char* argv []) {
 	argParser.RegisterFlag("convert");
 	argParser.RegisterFlag("resize");
 	argParser.RegisterFlag("scale");
+	argParser.RegisterOption("folder");
+	argParser.RegisterOption("amount");
 
 	argParser.Parse(argc, argv);
 
@@ -25,6 +27,8 @@ int main(int argc, char* argv []) {
 	cout << boolalpha  << "convert : " << argParser.GetFlag("convert") << endl;
 	cout << boolalpha  << "resize  : " << argParser.GetFlag("resize")  << endl;
 	cout << boolalpha  << "scale   : " << argParser.GetFlag("scale")   << endl;
+	cout << "Folder :" << argParser.GetOption("folder") << endl;
+	cout << "Amount :" << argParser.GetOption("amount") << endl;
 
 	return 0;
 }

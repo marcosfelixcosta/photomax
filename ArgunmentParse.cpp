@@ -31,6 +31,29 @@ bool ArgumentParse:: GetFlag(const string& flag) const
 	return false;
 }
 
+
+void ArgumentParse::RegisterOption(const string& option)
+{
+	if (!option.empty())
+	{
+		m_Options[option] = "";
+    }
+}
+
+const string& ArgumentParse::GetOption(const string& option) const
+{
+	if (!option.empty())
+	{
+		auto optionIt = m_Options.find(option);
+		if (optionIt != end(m_Options))
+		{
+			return optionIt->second;
+		}
+	}
+	static string EmptyOption = "";
+	return EmptyOption;
+}
+
 void ArgumentParse::Parse(int argc, char* argv[])
 {
 	if (argc > 1)
@@ -48,6 +71,18 @@ void ArgumentParse::Parse(int argc, char* argv[])
 					if (arg.find_first_of('=') != string::npos)
 					{
 						//Isso 'e uma opção
+						const size_t equalSignPos = arg.find('=');
+						if (equalSignPos !=string::npos) 
+						{
+							string optionName = arg.substr(0, equalSignPos);
+							string optinValue = arg.substr(equalSignPos + 1);
+
+							auto optionIt = m_Options.find(optionName);
+							if (optionIt!= end(m_Options) )
+							{
+								optionIt->second = optinValue;
+							}
+						}
 					}
 					else
 					{

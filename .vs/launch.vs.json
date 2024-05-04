@@ -9,7 +9,9 @@
       "name": "PhotoMax.exe",
       "args": [
         "--rename",
-        "--convert"
+        "--convert",
+        "--Folder=C://intel",
+        "--Amount=0.5"
       ]
     }
   ]
