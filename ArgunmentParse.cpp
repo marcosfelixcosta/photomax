@@ -54,6 +54,27 @@ const string& ArgumentParse::GetOption(const string& option) const
 	return EmptyOption;
 }
 
+float ArgumentParse::GetOptionAsFloat(const string& option) const
+{
+	const string& optionValue = GetOption(option);
+	if (!optionValue.empty()) 
+	{
+		return stof(optionValue);
+	}
+	return -1;
+}
+
+int ArgumentParse::GetOptionInt(const string& option) const
+{
+	const string& optionValue = GetOption(option);
+
+	if (!optionValue.empty())
+	{
+		return stoi(optionValue);
+	}
+	return -1;
+}
+
 void ArgumentParse::Parse(int argc, char* argv[])
 {
 	if (argc > 1)

@@ -3,16 +3,18 @@
   "defaults": {},
   "configurations": [
     {
-      "type": "default",
-      "project": "CMakeLists.txt",
-      "projectTarget": "PhotoMax.exe",
-      "name": "PhotoMax.exe",
       "args": [
         "--rename",
         "--convert",
+        "resize",
+        "Empty",
         "--Folder=C://intel",
         "--Amount=0.5"
-      ]
+      ],
+      "name": "PhotoMax.exe",
+      "project": "CMakeLists.txt",
+      "projectTarget": "PhotoMax.exe",
+      "type": "default"
     }
   ]
 }
