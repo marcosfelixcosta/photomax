@@ -1,12 +1,13 @@
 # ninja log v5
-2	764	7371800202852818	CMakeFiles/PhotoMax.dir/PhotoMax.cpp.obj	82c12c81594f4e37
-364	567	7371775028163666	PhotoMax.exe	7af7138a17a9dde6
-9	829	7371800203477755	CMakeFiles/PhotoMax.dir/ArgunmentParse.cpp.obj	d9f004c0d3ad8f53
-1	521	7371800978668554	CMakeFiles/PhotoMax.dir/PhotoMax.cpp.obj	82c12c81594f4e37
-2	480	7371802848363135	CMakeFiles/PhotoMax.dir/PhotoMax.cpp.obj	82c12c81594f4e37
-11	526	7371802848815480	CMakeFiles/PhotoMax.dir/ArgunmentParse.cpp.obj	d9f004c0d3ad8f53
-526	802	7371802850922382	PhotoMax.exe	7af7138a17a9dde6
-2	490	7371807344405488	CMakeFiles/PhotoMax.dir/PhotoMax.cpp.obj	82c12c81594f4e37
-9	530	7371807344874203	CMakeFiles/PhotoMax.dir/ArgunmentParse.cpp.obj	d9f004c0d3ad8f53
 2	518	7371808835273984	CMakeFiles/PhotoMax.dir/PhotoMax.cpp.obj	82c12c81594f4e37
 518	905	7371808838715019	PhotoMax.exe	7af7138a17a9dde6
+9	530	7371807344874203	CMakeFiles/PhotoMax.dir/ArgunmentParse.cpp.obj	d9f004c0d3ad8f53
+15	1730	7378484129388356	CMakeFiles/PhotoMax.dir/ArgunmentParse.cpp.obj	d9f004c0d3ad8f53
+3	1736	7378484129232051	CMakeFiles/PhotoMax.dir/PhotoMax.cpp.obj	82c12c81594f4e37
+1736	3812	7378484141575775	PhotoMax.exe	7af7138a17a9dde6
+9	980	7378493587063449	CMakeFiles/PhotoMax.dir/PhotoMax.cpp.obj	82c12c81594f4e37
+981	1801	7378493593938455	PhotoMax.exe	7af7138a17a9dde6
+1	813	7378500821706235	CMakeFiles/PhotoMax.dir/PhotoMax.cpp.obj	82c12c81594f4e37
+814	1187	7378500824908689	PhotoMax.exe	7af7138a17a9dde6
+2	839	7378508511336805	CMakeFiles/PhotoMax.dir/PhotoMax.cpp.obj	82c12c81594f4e37
+839	1275	7378508514697130	PhotoMax.exe	7af7138a17a9dde6
